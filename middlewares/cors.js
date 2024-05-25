@@ -2,7 +2,8 @@ const allowedCors = [
     'https://practicum.yandex.ru',
     'https://students-projects.ru',
     'http://localhost:3000',
-    'http://localhost:3001'
+    'http://localhost:3001',
+    'https://pindie-frontend-akibat.nomoredomainswork.ru'
   ];
 function cors(req, res, next) {
       const { origin } = req.headers; 
